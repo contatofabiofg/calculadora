@@ -1,0 +1,82 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Calculadora</title>
+  <link rel="stylesheet" href="style.css">
+  <script type="text/javascript" src="script.js"></script>
+</head>
+
+<body>
+
+  <div class="calculadoraarea">
+
+    <div class="visor"></div>
+
+    <div class="numerosesimbolos">
+      <div class="botao2" id="limpar" onclick="limpar(7)">
+        <div>limpar</div>
+      </div>
+      <div class="botao2" id="apagar" onclick="apagardigito()">
+        <div>apagar</div>
+      </div>
+
+      <div class="botao" id="sete" onclick="adicionarnumero(7)">
+        <div>7</div>
+      </div>
+      <div class="botao" id="oito" onclick="adicionarnumero(8)">
+        <div>8</div>
+      </div>
+      <div class="botao" id="nove" onclick="adicionarnumero(9)">
+        <div>9</div>
+      </div>
+      <div class="botao" id="dividir" onclick="dividir()">
+        <div>/</div>
+      </div>
+      <div class="botao" id="quatro" onclick="adicionarnumero(4)">
+        <div>4</div>
+      </div>
+      <div class="botao" id="cinco" onclick="adicionarnumero(5)">
+        <div>5</div>
+      </div>
+      <div class="botao" id="seis" onclick="adicionarnumero(6)">
+        <div>6</div>
+      </div>
+      <div class="botao" id="vezes" onclick="multiplicar()">
+        <div>*</div>
+      </div>
+      <div class="botao" id="um" onclick="adicionarnumero(1)">
+        <div>1</div>
+      </div>
+      <div class="botao" id="dois" onclick="adicionarnumero(2)">
+        <div>2</div>
+      </div>
+      <div class="botao" id="tres" onclick="adicionarnumero(3)">
+        <div>3</div>
+      </div>
+      <div class="botao" id="menos" onclick="subtrair()">
+        <div>-</div>
+      </div>
+
+      <div class="botao" id="zero" onclick="adicionarnumero(0)">
+        <div>0</div>
+      </div>
+      <div class="botao" id="ponto">
+        <div>.</div>
+      </div>
+      <div class="botao" id="igual" onclick="resultado()">
+        <div>=</div>
+      </div>
+      <div class="botao" id="mais" onclick="somar()">
+        <div>+</div>
+      </div>
+    </div>
+
+  </div>
+
+
+
+</body>
